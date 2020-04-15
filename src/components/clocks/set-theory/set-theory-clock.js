@@ -10,7 +10,7 @@ export default function SetTheoryClock({
   useEffect(() => {
     setStage(new Konva.Stage({
       width: 300,
-      height: 300,
+      height: 200,
       container: 'set-theory-container',
     }));
   }, []);

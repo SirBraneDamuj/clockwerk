@@ -11,7 +11,7 @@ export default function DigitalClock({
   useEffect(() => {
     setStage(new Konva.Stage({
       width: 300,
-      height: 100,
+      height: 50,
       container: 'digital-container',
     }));
   }, []);

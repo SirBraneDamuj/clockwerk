@@ -10,7 +10,7 @@ export default function TixClock({
   useEffect(() => {
     setStage(new Konva.Stage({
       width: 500,
-      height: 300,
+      height: 200,
       container: 'tix-container',
     }));
   }, []);
